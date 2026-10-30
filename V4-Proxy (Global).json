@@ -1,0 +1,47 @@
+[
+  {
+    "enabled": true,
+    "remarks": "Block UDP 443",
+    "outboundTag": "block",
+    "port": "443",
+    "network": "udp"
+  },
+  {
+    "enabled": true,
+    "remarks": "Torrent - Direct",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Block Ads",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Local IPs - Direct",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Local Domains - Direct",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Default - Proxy",
+    "outboundTag": "proxy",
+    "port": "0-65535"
+  }
+]

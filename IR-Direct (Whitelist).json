@@ -1,0 +1,64 @@
+[
+  {
+    "enabled": true,
+    "remarks": "Block UDP 443",
+    "outboundTag": "block",
+    "port": "443",
+    "network": "udp"
+  },
+  {
+    "enabled": true,
+    "remarks": "Bypass Torrent",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Block Ads",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Bypass LAN IP",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Bypass LAN Domain",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Bypass IR Domain",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:ir",
+      "geosite:category-ir"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Bypass IR IP",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ir"
+    ]
+  },
+  {
+    "enabled": true,
+    "remarks": "Default Proxy",
+    "outboundTag": "proxy",
+    "port": "0-65535"
+  }
+]
