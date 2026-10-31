@@ -4,22 +4,22 @@
     {
       "remarks": "IR Direct (Whitelist)",
       "domainStrategy": "IPOnDemand",
-      "url": "https://cdn.jsdelivr.net/gh/imaliaz/Iran-v2ray-rules@refs/heads/main/IR-Direct%20(Whitelist).json"
+      "url": "https://raw.githubusercontent.com/imaliaz/Iran-v2ray-rules/refs/heads/main/IR-Direct%20(Whitelist).json"
     },
     {
       "remarks": "CN Direct (Whitelist)",
       "domainStrategy": "IPOnDemand",
-      "url": "https://cdn.jsdelivr.net/gh/imaliaz/Iran-v2ray-rules@refs/heads/main/CN-Direct%20(Whitelist).json"
+      "url": "https://raw.githubusercontent.com/imaliaz/Iran-v2ray-rules/refs/heads/main/CN-Direct%20(Whitelist).json"
     },
     {
       "remarks": "Proxy (Global)",
       "domainStrategy": "IPOnDemand",
-      "url": "https://cdn.jsdelivr.net/gh/imaliaz/Iran-v2ray-rules@refs/heads/main/V4-Proxy%20(Global).json"
+      "url": "https://raw.githubusercontent.com/imaliaz/Iran-v2ray-rules/refs/heads/main/V4-Proxy%20(Global).json"
     },
     {
       "remarks": "Blacklist",
       "domainStrategy": "IPOnDemand",
-      "url": "https://cdn.jsdelivr.net/gh/imaliaz/Iran-v2ray-rules@refs/heads/main/V4-Blacklist.json"
+      "url": "https://raw.githubusercontent.com/imaliaz/Iran-v2ray-rules/refs/heads/main/V4-Blacklist.json"
     }
   ]
 }
