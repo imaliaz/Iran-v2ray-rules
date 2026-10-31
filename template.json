@@ -1,4 +1,5 @@
 {
+  "version": "V4",
   "routingItems": [
     {
       "remarks": "IR Direct (Whitelist)",
@@ -11,12 +12,12 @@
       "url": "https://cdn.jsdelivr.net/gh/imaliaz/Iran-v2ray-rules@refs/heads/main/CN-Direct%20(Whitelist).json"
     },
     {
-      "remarks": "V4 Proxy (Global)",
+      "remarks": "Proxy (Global)",
       "domainStrategy": "IPOnDemand",
       "url": "https://cdn.jsdelivr.net/gh/imaliaz/Iran-v2ray-rules@refs/heads/main/V4-Proxy%20(Global).json"
     },
     {
-      "remarks": "V4 Blacklist",
+      "remarks": "Blacklist",
       "domainStrategy": "IPOnDemand",
       "url": "https://cdn.jsdelivr.net/gh/imaliaz/Iran-v2ray-rules@refs/heads/main/V4-Blacklist.json"
     }
